@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./background.svg);
+}
+body .container {
+  margin-top: 50px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+body .container form {
+  width: 70%;
+  margin: 10px 0;
+}
+body .container form .input-group {
+  width: 100%;
+}
+body .container form .input-group .form-tarefa {
+  width: 64%;
+}
+body .container form .input-group .form-tarefa .tarefa {
+  border: 1px solid rgb(124, 124, 124);
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px 0 0 10px;
+}
+body .container form .input-group .form-horario {
+  width: 10%;
+}
+body .container form .input-group .form-horario .horario {
+  border: 1px solid rgb(124, 124, 124);
+  width: 100%;
+}
+body .container form .input-group .form-btn {
+  width: 10%;
+}
+body .container form .input-group .form-btn .btn {
+  border-radius: 0 10px 10px 0;
+}
+body .container .lista {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container .lista .item {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 65%;
+  margin: 20px 0;
+  background-color: rgb(245, 245, 245);
+}
+body .container .lista .item p {
+  margin-top: 10px;
+}
+body .container .lista .item .btn {
+  border-radius: 100px;
+  height: 100%;
+}
+body .container .lista .item i {
+  line-height: 1px;
+  font-size: 30px;
+}/*# sourceMappingURL=styles.css.map */
